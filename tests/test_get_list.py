@@ -30,3 +30,5 @@ def test_single_resource():
 def test_single_resource_nf():
     response = httpx.get(host + endpoint_single_resource_nf)
     assert response.status_code == 404
+
+#Какие то изменения
